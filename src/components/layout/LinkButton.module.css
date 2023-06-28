@@ -1,0 +1,15 @@
+.btn {
+    background-color:aquamarine;
+    color:#303030;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    transition:0.5s;
+    border-radius:10px;
+}
+
+.btn:hover{
+    color: rgb(1, 31, 31);
+    background-color:aquamarine;
+    transform:translateY(-7px);
+    transition-duration: 0.5s;
+}

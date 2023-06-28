@@ -1,0 +1,50 @@
+.project_details{
+
+}
+
+.project_details h1, 
+.project_details h2, 
+.project_details p{
+    margin-bottom: 0.5em;
+}
+
+.project_details span {
+    font-weight: bold;
+}
+
+.details_container, 
+.service_container{
+    padding: 1em;
+    border: 1px solid rgb(240, 237, 237);
+    margin-bottom: 1.2em;
+    padding-bottom: 1.2em;
+    border-radius: 5px;
+    box-shadow: 3px aqua;
+    text-align: center;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.btn {
+    background-color:aquamarine;
+    color:#303030;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    transition:0.5s;
+    border-radius:10px;
+    cursor: pointer;
+    max-height: 40px;
+}
+
+.btn:hover{
+    color: rgb(1, 31, 31);
+    background-color:aquamarine;
+    transform:translateY(-7px);
+    transition-duration: 0.5s;
+}
+
+.project_info{
+    width: 100%;
+}

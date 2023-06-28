@@ -1,0 +1,43 @@
+.project_card{
+    padding: 1em;
+    border: 1px solid black;
+    color: #303030;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    box-shadow: 3px aqua;
+    text-align: center;
+    margin: 20px;
+}
+
+.project_card span{
+    font-weight: bolder;
+}
+
+.project_card p{
+    margin-bottom: 3px;
+}
+
+.project_card h4{
+    font-size: 25px;
+    color:#0f0f0f;
+    margin-bottom: 5px;
+}
+
+.project_card div{
+    display: flex;
+    justify-content: center;
+}
+
+.icon{
+    width: 35px;
+    cursor: pointer;
+    color: #0f0f0f;
+    margin-top: 10px;
+}
+
+.icon:hover{
+    color: rgb(1, 31, 31);
+    color:rgba(215, 219, 4, 0.747);
+    transform:translateY(-7px);
+    transition-duration: 0.5s;
+}

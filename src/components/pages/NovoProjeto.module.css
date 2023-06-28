@@ -1,0 +1,15 @@
+.novoprojeto_container {
+    width:450px;
+    margin: 0 auto;
+    padding: 3em;
+}
+
+.novoprojeto_container h1 {
+    margin-bottom:10px;
+    text-align: center;
+}
+
+.novoprojeto_container p {
+    color:antiquewhite;
+    margin-bottom:10px;
+}
